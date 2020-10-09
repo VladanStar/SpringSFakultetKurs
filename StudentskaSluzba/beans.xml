@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="kurs" class="com.vladancupric.Kurs">
+		<constructor-arg name="fakultet" type="String" value="FON"></constructor-arg>
+		<constructor-arg>
+			<map>
+				<entry key="1" value="Osnove programiranja u Javi"></entry>
+			
+				<entry key="2" value="Osnove Springa"></entry>
+			
+				<entry key="3" value="Baze podataka"></entry>
+			
+				<entry key="4" value="Objektno orijentisano programiranje"></entry>
+			
+				<entry key="5" value="PHP programiranje"></entry>
+			
+				<entry key="6" value="Paython za svaku priliku"></entry>
+			</map>
+		</constructor-arg>
+	</bean>
+</beans>
